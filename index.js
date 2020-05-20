@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from "react";
 import { render } from 'react-dom';
 import {
   Route,
@@ -9,10 +9,14 @@ import {
 import Home from "./pages/Home";
 import Stuff from "./pages/Stuff";
 import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+
+
+
 
 import './index.css';
 
-class App extends Component {
+class App extends React.Component {
 
   render() {
     return (
@@ -24,11 +28,13 @@ class App extends Component {
             <li><NavLink exact={true}  to="/">Home</NavLink></li>
             <li><NavLink to ="/stuff">Stuff</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/login">Login</NavLink></li>
           </ul>
           <div className="content">
               <Route exact path="/" component={Home}/>
             <Route path="/stuff" component={Stuff}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/login" component={Login}/>
           </div>
 
 
