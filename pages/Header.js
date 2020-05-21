@@ -1,5 +1,5 @@
 import React from "react";
-export const Header = () => {
+export default export const Header = () => {
   return (
     <nav id="navigation">
       <h1 href="#" className="logo">
@@ -8,4 +8,3 @@ export const Header = () => {
     </nav>
   );
 };
-export default Header;
