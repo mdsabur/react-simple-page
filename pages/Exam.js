@@ -5,8 +5,9 @@ export default class Exam  extends Component {
     return (
       <div>
         <h2>বাস্তব সংখ্যার উপর যোগ ও গুণন প্রক্রিয়া</h2>
-        <p>১. a,b বাস্তব সংখ্যা হলে, (i) a b বাস্তব সংখ্যা এবং (ii) ab বাস্তব সংখ্যা।</p>
+        <p>এবং 4 এর মধ্যে দুইটি অমূলদ সংখ্যা নির্ণয় কর</p>
         <ol>
+          <li>Id porttitor</li>
           <li>Nulla pulvinar diam</li>
           <li>Facilisis bibendum</li>
           <li>Vestibulum vulputate</li>
