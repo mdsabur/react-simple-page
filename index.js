@@ -12,6 +12,8 @@ import Homework from "./pages/Homework";
 import Grade from "./pages/Grade";
 import AbilityTest from "./pages/AbilityTest";
 
+import UserPage from "./pages/UserPage";
+
 
 import Login from "./pages/Login";
 import Header from "./pages/Header";
@@ -45,11 +47,16 @@ class App extends React.Component {d
             <Route path="/abilitytest" component={AbilityTest}/>
             <Route path="/exam" component={Exam}/>
             <Route path="/grade" component={Grade}/>
+            
 
           </div>
 
 
       </div>
+      
+      <switch>
+      <Route path="/:id" component={UserPage} />
+      </switch>
       </HashRouter>
       
     );
