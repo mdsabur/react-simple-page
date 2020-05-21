@@ -10,7 +10,7 @@ import Subject from "./pages/Subject";
 import Exam  from "./pages/Exam";
 import Homework from "./pages/Homework";
 import Grade from "./pages/Grade";
-
+import AbilityTest from "./pages/AbilityTest";
 
 
 import Login from "./pages/Login";
@@ -32,7 +32,7 @@ class App extends React.Component {d
          
           <ul className="header">
             <li><NavLink exact={true}  to="/">বিষয়</NavLink></li>
-            <li><NavLink to ="/homework">সৃজনশীল</NavLink></li>
+            <li><NavLink to ="/abilitytest">সৃজনশীল</NavLink></li>
             <li><NavLink to="/exam">অনুশীলনী</NavLink></li>
             <li><NavLink to="/grade">ফলাফল</NavLink></li>
           </ul>
@@ -40,7 +40,7 @@ class App extends React.Component {d
              
 
             <Route exact path="/" component={Subject}/>
-            <Route path="/homework" component={Homework}/>
+            <Route path="/abilitytest" component={AbilityTest}/>
             <Route path="/exam" component={Exam}/>
             <Route path="/grade" component={Grade}/>
 
