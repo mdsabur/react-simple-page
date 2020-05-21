@@ -15,7 +15,7 @@ export default class Subject extends Component {
         <div className="container">
         <h1>Home Page</h1>
         <p>
-        <Link to="/User">User</Link> on GitHub.
+        <Link to="/taniarascia">User</Link> on GitHub.
         </p>
     </div>
 
