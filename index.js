@@ -29,9 +29,11 @@ class App extends React.Component {d
       <div>
       
          <h1>গনিত-দশম শ্রেণী</h1>
+      
+         
          
           <ul className="header">
-            <li><NavLink exact={true}  to="/">বিষয়</NavLink></li>
+            <li><NavLink exact={true}  to="/">পাঠ</NavLink></li>
             <li><NavLink to ="/abilitytest">সৃজনশীল</NavLink></li>
             <li><NavLink to="/exam">অনুশীলনী</NavLink></li>
             <li><NavLink to="/grade">ফলাফল</NavLink></li>
